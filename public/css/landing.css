@@ -1,0 +1,60 @@
+.header {
+
+background-transparency: 0px;   
+display: flex;
+align-items:center;
+gap: 20px;
+padding-bottom: 20px;
+padding-top: 20px;
+margin-left:2px;
+margin-right:2px;
+}
+.auth{
+    padding-left: 4px;
+    padding-right: 20px;
+    margin-left:21rem;
+}
+.gs{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+    text-shadow: 2px 2px 5px rgb(0, 0, 0);
+    border-radius: 50px;
+    background-color:rgb(2, 5, 195);
+    border: 5px solid rgb(12, 1, 128);
+    font-size: 6rem;
+    margin-left:auto;
+    padding-left:   2rem;
+    padding-right: 2rem;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    box-shadow: 2px 2px 8px rgb(0, 0, 0);
+}
+
+.logoim{
+    width: 80px;
+    margin-left:2rem;
+}
+.logo{
+    box-shadow: 2px 2px 8px rgb(0, 0, 0);
+    text-transform: uppercase;
+    text-align: center;
+    padding: 10px;
+    border-radius: 8px;
+    border: 1px dashed rgb(0, 0, 5);
+    font-style: italic;
+    font-size:x-large;
+    font-weight: bold;
+}
+.bg {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url('../img/pexels-scottwebb-3255761.jpg  ');
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    z-index: -1; /* Place the background behind the content */
+  }
+  
